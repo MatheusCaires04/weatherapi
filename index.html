@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/OIP.jfif" type="image/x-icon" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link rel="stylesheet" href="style/global.css" />
+    <title>CLIMA TEMPO</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box__form">
+        <h1 class="title">CLIMA TEMPO</h1>
+        <h3 class="sub__title">Consultas de clima</h3>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Informe sua cidade"
+            class="input__city"
+            autocomplete="off"
+          />
+          <input type="submit" class="btn" value="Buscar cidade" />
+        </form>
+        <div class="data"></div>
+      </div>
+      <div class="shadow"></div>
+    </div>
+
+    <script src="script/app.js"></script>
+  </body>
+</html>
